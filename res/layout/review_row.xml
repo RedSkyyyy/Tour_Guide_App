@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="1dp"
+    android:id="@+id/recCard"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    tools:context=".GiveRating">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:id="@+id/reviewProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/recName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/recRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:max="5"
+            android:numStars="5"
+            android:progressTint="#FFC107"
+            android:stepSize=".5" />
+
+        <TextView
+            android:id="@+id/recComment"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_below="@+id/recRate"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="3dp" />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

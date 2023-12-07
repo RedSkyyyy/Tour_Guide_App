@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TourAja</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="dest_name">
+        <item>Mount Bromo</item>
+        <item>Colloseum</item>
+        <item>Angkor Wat</item>
+        <item>Bora-Bora</item>
+        <item>Machu Pichu</item>
+    </string-array>
+
+    <string-array name="country_name">
+        <item>Indonesia</item>
+        <item>Rome</item>
+        <item>Cambodia</item>
+        <item>France</item>
+        <item>Peru</item>
+    </string-array>
+
+    <string-array name="dest_desc">
+        <item>Mount Bromo is a part of the Bromo Tengger Semeru National Park that covers a massive area of 800 square km. While it may be small when measured against other volcanoes in Indonesia, the magnificent Mt Bromo will not disappoint with its spectacular views and dramatic landscapes. At 2,392 meters tall, Mt Bromo is not among the tallest of Indonesia’s mountains but its stunning beauty lies in its incredible setting.</item>
+        <item>The Colosseum is the main symbol of Rome. It is an imposing construction that, with almost 2,000 years of history, will bring you back in time to discover the way of life in the Roman Empire. The construction of the Colosseum began in the year 72 under the empire of Vespasian and was finished in the year 80 during the rule of the emperor Titus. After completion, the Colosseum became the greatest Roman amphitheater, measuring 188 meters in length, 156 meters in width, and 57 meters in height.</item>
+        <item>Angkor Wat is an enormous Buddhist temple complex located in northern Cambodia. It was originally built in the first half of the 12th century as a Hindu temple. Spread across more than 400 acres, Angkor Wat is said to be the largest religious monument in the world. Its name, which translates to “temple city” in the Khmer language of the region, references the fact it was built by Emperor Suryavarman II, who ruled the region from 1113 to 1150, as the state temple and political center of his empire.</item>
+        <item>Bora Bora (French: Bora-Bora; Tahitian: Pora Pora) is an island group in the Leeward Islands. The Leeward Islands comprise the western part of the Society Islands of French Polynesia, which is an overseas collectivity of the French Republic in the Pacific Ocean. Bora Bora has a total land area of 30.55 km2 (12 sq mi). </item>
+        <item>Machu Pichu</item>
+    </string-array>
+
+</resources>
